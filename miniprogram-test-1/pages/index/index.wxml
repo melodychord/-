@@ -1,0 +1,11 @@
+<!--index.wxml-->
+<view class="container">
+  <view class = 'contentView'>
+   <button  bindlongtap='longTap' bindtouchstart='touchStart' bindtouchend = 'touchEnd' class='longTapTouch'>
+    <image class = 'backgroundImage' src = '../images/record.png'></image>
+   </button>
+   <button type='primary' bindtap='playlongRecord' class='playlongRecordClass'>播放长按录音</button>
+   <button type='primary' bindtap='transferAudioToText' class='transferAudioToText'>语音转文字</button>
+   <view class = 'LabelText'>{{audioresult}}</view>
+   </view>
+</view>

@@ -1,0 +1,41 @@
+/**index.wxss**/
+.startRecordClass{
+  margin-top: 30px;
+}
+
+.endRecordClass{
+  margin-top: 30px;
+}
+
+.playRecordClass{
+  margin-top: 30px;
+}
+
+.contentView{
+  width: 80%;
+}
+
+.longTapTouch{
+  margin-top: 30px;
+  width:50px;
+  height: 50px;
+  border-radius: 25px;
+  border: 0px;
+  background-color: orchid;
+  align-content: center; 
+}
+
+.backgroundImage{
+  margin-top: 10px;
+  width: 120%;
+  height: 60%;
+  margin-left: -1px;
+}
+
+.playlongRecordClass{
+  margin-top: 30px;
+}
+
+.transferAudioToText{
+  margin-top: 30px;
+}
